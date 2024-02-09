@@ -37,3 +37,16 @@ hexo server
 git pull -r
 git submodule update
 ```
+
+## Nixos
+
+git clone https://github.com/Westwoodlabs/website.git
+cd website
+nix-shell
+
+Dependencies werden automatisch installiert, das theme wird automatisch installiert. Beim nächsten aufruf wird das Theme auch aktualisiert. 
+
+```sh
+hexo serve     -> startet den DEV Server
+hexo generate  -> erzeugt statische Websites
+```

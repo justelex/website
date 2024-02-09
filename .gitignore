@@ -3,3 +3,4 @@ db.json
 .tern-project
 public/
 .idea/
+package-lock.json
