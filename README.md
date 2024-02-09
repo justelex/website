@@ -45,7 +45,7 @@ git clone https://github.com/Westwoodlabs/website.git
 cd website
 nix-shell
 ```
-Dependencies werden automatisch installiert, das theme wird automatisch installiert. Beim nächsten aufruf wird das Theme auch aktualisiert. 
+Dependencies werden automatisch installiert, das Theme wird automatisch installiert. Beim weiteren Aufrufen der Nix-Shell wird das Theme aktualisiert. 
 
 ```sh
 hexo serve     -> startet den DEV Server
