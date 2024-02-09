@@ -27,7 +27,7 @@ Mit `hexo generate` können nun die HTML Dateien erstellt werden. Die Dateien we
 Installiert man noch das npm Paket `hexo-server`, kann man mit `hexo server` einen Entwicklungsserver starten, 
 welcher Änderungen direkt aktualisiert.
 
-```
+```sh
 [sudo] npm install hexo-server -g
 hexo server
 ```
@@ -40,10 +40,11 @@ git submodule update
 
 ## Nixos
 
+```sh
 git clone https://github.com/Westwoodlabs/website.git
 cd website
 nix-shell
-
+```
 Dependencies werden automatisch installiert, das theme wird automatisch installiert. Beim nächsten aufruf wird das Theme auch aktualisiert. 
 
 ```sh
